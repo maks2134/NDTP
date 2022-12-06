@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    background-color: #849D8F;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: 27px;
+}
+header{
+    margin-top: 0px;
+    min-height: 650px;
+    background-image: url(/HTMLacademy/Glessi/Подсветка.png);
+    background-repeat:no-repeat;
+    background-position:center;
+
+}
+
+
+.nav_link{
+    min-height: 118px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav_link ul{
+    display:flex;
+}
+
+.nav_li{
+    margin-left: 30px;
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+}
+.nav_li_link{
+    text-decoration: none;
+    color: white;
+}
+.nav_li_link:hover{
+    color:pink;
+}
+.button_forms{
+    margin-left: 540px;
+}
+.find_button{
+    margin-left: 12px;
+}
+
+.nav_forms_promo{
+    padding-left: 7px;
+    padding-right: 16px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+text-decoration: none;
+display: flex;
+align-items: center;
+text-align: center;
+z-index: 1;
+color: white;
+}
+
+.find_button{
+    background: #9db1a5;
+
+mix-blend-mode: normal;
+border: none;
+text-shadow: none;
+border-radius: 99em;
+width: 92.33px;
+height: 32px;
+}
+
+
+.find_button_first{
+    background: #9db1a5;
+
+    mix-blend-mode: normal;
+    border: none;
+    text-shadow: none;
+    border-radius: 99em;
+    width: 35px;
+height: 35px;
+padding: 0;
+}
+.promo_titels{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+.span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
+
+.ice-cream{
+    height: 600px;
+    background-image: url(/HTMLacademy/Glessi/photo/cremebrulee-and-raspberryicecream.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cream{
+    text-align: center;
+    color:white;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+position: absolute;
+
+left:410px;
+line-height: 60px;
+top: 384.82px;
+color: #FFFFFF;
+}
+.cream_button{
+    background: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
+box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
+border-radius: 99em;
+border:none;
+position: absolute;
+top: 560px;
+left:610px;
+}
+
+
+.cream_button_link{
+    color:white;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+text-decoration: none;
+padding-left: 27px;
+padding-right: 27px;
+}
+.ice_cream_list{
+    margin-top: 436px;
+}
+.choko_strawberry_img{
+    height: 232px;
+}
+
+ .choko_strawberry_img{
+   display: flex;
+    justify-content: space-between;
+    margin-top: -50px;
+    margin-right: 27px;
+} 
+
+.strawberry{
+    background-image: url(/HTMLacademy/Glessi/photo/action-raspberry.jpg);
+    width: 676px;
+    border-radius:11px;
+}
+
+.choko{
+    background-image: url(/HTMLacademy/Glessi/photo/action-chocolate.jpg);
+    width: 676px;
+    border-radius:11px;
+}
+.choko_strawberry_img_promo_h{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 41px;
+margin-left: 20px;
+
+color: #FFFFFF;
+}
+.choko_strawberry_img_promo_p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+margin-left: 20px;
+
+color: #FFFFFF;
+
+}
+.strawberry_img_promo_button{
+    display: block;
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    background: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
+    mix-blend-mode: normal;
+    opacity: 0.99;
+    box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
+    border:none;
+    width: 168px;
+    border-radius: 99em;
+height: 49px;
+}
+
+.choko_strawberry_img_promo_button{
+    display: block;
+    float: right;
+    margin-top: 50px;
+    margin-right: 20px;
+    background: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
+    mix-blend-mode: normal;
+    opacity: 0.99;
+    box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
+    border:none;
+    width: 192px;
+    border-radius: 99em;
+height: 49px;
+}
+
+
+.DREAM{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+text-decoration: none;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.hit{
+    height: 346.03px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27px;
+    margin-right: 27px;
+    margin-top: 40px;
+}
+
+.vanila-orange{
+    background: url(/HTMLacademy/Glessi/photo/cream-orange-jam.png) no-repeat;
+    width: 267px;
+height: 267px;
+}
+.vanila-cofee{
+    background: url(/HTMLacademy/Glessi/photo/cream-coffee-chocolate.png) no-repeat;
+    width: 267px;
+height: 267px;
+}
+.vanila-strawberry{
+    background: url(/HTMLacademy/Glessi/photo/cream-strawberry-whitechocolate.png) no-repeat;
+    width: 267px;
+height: 267px;
+}
+.vanila-crem{
+    background: url(/HTMLacademy/Glessi/photo/cream-brulee-caramel.png) no-repeat;
+    width: 267px;
+height: 267px;
+}
+.price{
+    margin-top: 170px;
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+    line-height: 13px;
+    color: #FFFFFF;
+
+text-shadow: 0.5px 0.9px 3px rgba(49, 50, 53, 0.5);
+}
+.price_rubble{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 13px;
+    color: #FFFFFF;
+    text-shadow: 0.5px 0.9px 3px rgba(49, 50, 53, 0.5);
+}
+.opinion{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.online_shop{
+    background: url(/HTMLacademy/Glessi/photo/shop-seo-bg-wafer.jpg) ; 
+    height: 325px;
+    width: 96%;
+    border-radius: 40px;
+    border:none;
+    box-shadow:none;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.shop_glaccy_ofline{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+padding-top: 25px;
+display: block;
+line-height: 30px;
+color: #323232;
+
+}
+.left_ice_cream{
+    float: left;
+}
+.left_ice_cream_p{
+    float:right;
+
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+
+
+color: #323232;
+
+}
+
+
+.left{
+float: left;
+margin-top: 0;
+}
+
+.left_ice_cream_p{
+    background: url(/HTMLacademy/Glessi/svg/ice-cream.svg) no-repeat ;
+    padding-left: 57px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #323232;
+}
+.left_ice_cream_p_eco{
+    background: url(/HTMLacademy/Glessi/svg/eco.svg) no-repeat;
+    padding-left: 57px;
+    margin-top: 120px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+color: #323232;
+
+}
+
+.right{
+    float:right;
+    margin-right: 100px;
+}
+
+.cow{
+    background: url(/HTMLacademy/Glessi/svg/cow.svg) no-repeat;
+    padding-left: 57px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #323232;
+}
+
+.temp{
+    background: url(/HTMLacademy/Glessi/svg/thermometer.svg) no-repeat;
+    padding-left: 57px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+margin-top: 40px;
+    line-height: 22px;
+    
+    color: #323232;
+}
+
+.news_blog{
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.news_blog_list{
+    background: url(/HTMLacademy/Glessi/Клубничный\ фон.png) no-repeat;
+    height:220px;
+    border-radius: 40px;
+    width: 552.09px;
+
+}
+.news_information{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+margin-left: 27px;
+padding-top: 30px;
+
+color: #323232;
+
+}
+
+.news_informatio_p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+margin-left: 27px;
+line-height: 30px;
+text-decoration: underline;
+
+color: #323232;
+}
+
+.news_information_link{
+    color:black;
+}
+.mailing_list{
+    height:220px;
+
+    background-image: url(/HTMLacademy/Glessi/svg/bg-post.svg);
+    background-repeat:no-repeat;
+    border-radius: 11px;
+    min-height: 220px;
+}
+.maling_list_p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+
+
+color: #5A5A5A;
+
+}
+.wrap{
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 29px 18px 50px 21px;
+    background-color: #f8f7f4;
+    border-radius: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top:5px;
+}
+
+.maling_list_input{
+    width: 349px;
+    margin-right: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+    padding-left: 15px;
+    border: 1px solid rgba(70, 70, 70, 0.48);
+    border-radius: 4px;
+    display: inline;
+    float: left;
+}
+
+.input_button{
+    width: 130px;
+    display: inline;
+    height: 33px;
+    background: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
+    mix-blend-mode: normal;
+    opacity: 0.99;
+    box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
+    border:none;
+    border-radius: 99em;
+
+}
+
+.input_button_link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+text-decoration: none;
+text-align: center;
+color: #FEFEFE;
+
+}
+
+.iframe_map{
+    width: 100%;
+}
+
+.map_cards{
+    position: absolute;
+    top: 2000px;
+    right: 0;
+    width: 277px;
+    margin-top: 63px;
+    margin-right: 27px;
+    padding-top: 30px;
+    padding-left: 25px;
+    background-color: white;
+    border-radius: 10px;
+    min-height: 270px;
+}
+.first_titel_promo{
+    font-family: 'Roboto';
+font-style: normal;
+margin-top: 0px;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+color: #323232;
+
+}
+.gps{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+
+
+color: #323232;
+
+}
+.car_bag{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+color: #323232;
+}
+.tell{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+
+color: #323232;
+}
+
+.forms{
+    background: linear-gradient(0deg, #E74A35 0%, #F26843 100%);
+box-shadow: 0px 2px 2px rgba(172, 16, 0, 0.64);
+border: none;
+width: 254px;
+height: 46px;
+border-radius: 99em;
+margin-bottom: 30px;
+}
+
+.forms_link{
+    text-decoration: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+
+color: #FEFEFE;
+
+}
+footer{
+    height: 100px;
+}
+.footer{
+    margin-left: 10px;
+}
+.i{
+    margin-top: 35px;
+    mix-blend-mode: normal;
+    width: 40px;
+height: 40px;
+opacity: 0.5;
+}
